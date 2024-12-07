@@ -28,6 +28,5 @@ This repository contains a PowerShell script to automate the installation of Win
 
 2. Run the script: Open PowerShell as an Administrator, go the directory where the file is placed and run the script:
 
+  ```bash
 .\wsl-kali-linux-install.ps1
-
-**ENJOY**
