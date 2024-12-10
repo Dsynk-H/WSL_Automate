@@ -27,6 +27,15 @@ This repository contains a PowerShell script to automate the installation of Win
    cd wsl-kali-installer
 
 2. Run the script: Open PowerShell as an Administrator, go the directory where the file is placed and run the script:
+  
+`.\wsl-kali-linux-install.ps1`
 
-  ```bash
-.\wsl-kali-linux-install.ps1
+
+Note: Incase if you are getting an error while executing the script then. Set the execution Policy with the following command:
+
+
+Commmand: 
+
+`Set-ExecutionPolicy RemoteSigned`
+
+You’ll see a security risk warning. Type “Y” or “A” when prompted to proceed. That’s all! This should solve the issue.
